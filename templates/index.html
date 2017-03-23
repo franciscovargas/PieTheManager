@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PieManager</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </head>
+  <style type="text/css">
+    #transdiv{
+      filter: alpha(opacity=0);
+      height: 225px;
+    }
+
+    .btn:active
+    {
+        box-shadow:none;
+    }
+
+
+    .btn-xlarge {
+      box-shadow:none;
+    padding: 18px 28px;
+    font-size: 90px; 
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+    }
+  </style>
+<script type="text/javascript">
+  function paramDisp(){
+    document.getElementById("yaldy").style.display = "block";;    
+  }
+ $( document ).ready(function() {
+    // instantiating graph object
+    // var graphObject = new SvgGraph();
+    // // running graph methods TODO: Scheduler | conds satisfied
+    // graphObject.gen_graph();
+    console.log("END");
+  });
+  </script>
+  <body>
+    <div class="container">
+
+
+      <form method="POST">
+
+        <div class="form-group">
+        <div id="transdiv" ></div>
+
+        <div class="col-md-16 text-center">   
+          <button type="submit"  class="btn btn-xlarge btn-danger">Pie Him ! :D</button>
+        </div>
+      </form>
+    </div>
+  </body>
+<html>
